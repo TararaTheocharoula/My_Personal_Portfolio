@@ -1,0 +1,82 @@
+.resume-section {
+  padding: 50px 0;
+}
+
+.resume-section-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.resume-section-content h2 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.subheading {
+  font-size: 1.5rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.dev-icons {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Center the icons */
+}
+
+.dev-icons li {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 2rem;
+  color: #ef5959;
+}
+
+.fa-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.fa-ul li {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.fa-li {
+  position: absolute;
+  left: -2em;
+  width: 2em;
+  top: 0.7em;
+  color: #ef5959;
+}
+
+.fa-ul li {
+  font-size: 1.25rem;
+  color: #555;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .resume-section-content {
+    padding: 0 20px; /* Adjust padding for smaller screens */
+  }
+
+  .resume-section-content h2 {
+    font-size: 2rem; /* Decrease heading font size */
+  }
+
+  .subheading {
+    font-size: 1.25rem; /* Decrease subheading font size */
+  }
+
+  .dev-icons li {
+    font-size: 1.5rem; /* Decrease icon size */
+  }
+}
+
+@media (max-width: 576px) {
+  .dev-icons li {
+    font-size: 1.25rem; /* Further decrease icon size for smaller screens */
+  }
+}

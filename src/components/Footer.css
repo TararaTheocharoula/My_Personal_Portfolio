@@ -1,0 +1,24 @@
+.footer-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer-parent {
+  width: 100%;
+  max-width: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-parent img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 1110px) {
+  .footer-parent {
+    align-items: flex-end; /* Align content to the bottom on smaller screens */
+  }
+}
